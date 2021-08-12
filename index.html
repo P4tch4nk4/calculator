@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    <script lang="JavaScript" src="calculator.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <dive class = "main">
+        <h1>Calculadora</h1>
+        <div class = "calculator">
+            <form action="" name="forCalculator">
+                <div class="divDisplay">
+                    <input type="text" id="inputDisplay" name="display">
+                </div>
+                <div class="firstButtons">
+                    <input type="button" value="7" class="button bord" onclick=button(value)>
+                    <input type="button" value="8" class="button bord" onclick=button(value)>
+                    <input type="button" value="9" class="button bord" onclick=button(value)>
+                    <input type="button" id="operation" value="*" class="button bord" onclick=button(value)>
+                </div>
+                <div class="secondButtons">
+                    <input type="button" value="4" class="button bord" onclick=button(value)>
+                    <input type="button" value="5" class="button bord" onclick=button(value)>
+                    <input type="button" value="6" class="button bord" onclick=button(value)>
+                    <input type="button" id="operation" value="/" class="button bord" onclick=button(value)>
+                </div>
+                <div class="thirdButtons">
+                    <input type="button" value="1" class="button bord" onclick=button(value)>
+                    <input type="button" value="2" class="button bord" onclick=button(value)>
+                    <input type="button" value="3" class="button bord" onclick=button(value)>
+                    <input type="button" id="operation" value="+" class="button bord" onclick=button(value)>
+                </div>
+                <div class="fourthButtons">
+                    <input type="button" id="C" value="C" class="button bord" onclick=reset()>
+                    <input type="button" value="0" class="button bord" onclick=button(value)>
+                    <input type="button" id="calc"value="=" class="button bord" onclick=calculate()>
+                    <input type="button" id="operation" value="-" class="button bord" onclick=button(value)>
+                </div>
+            </form>
+        </div>
+    </dive>
+    
+</body>
+</html>
